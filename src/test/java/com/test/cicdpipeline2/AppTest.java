@@ -24,7 +24,7 @@ public class AppTest {
         options.addArguments("--no-sandbox");             // required in Docker/WSL
         options.addArguments("--disable-dev-shm-usage");  // prevent crashes on small /dev/shm        
         
-        driver = new ChromeDriver(options);  //create ChromeDriver instance with options (for comment)
+        driver = new ChromeDriver(options);  //create ChromeDriver instance with options
         
         
     }
